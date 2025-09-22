@@ -31,7 +31,7 @@ int main(void)
 		return 0;
 	}
 
-	blink = DEVICE_DT_GET(DT_NODELABEL(blink_led));
+	blink = DEVICE_DT_GET(DT_NODELABEL(blink_led0));
 	if (!device_is_ready(blink)) {
 		LOG_ERR("Blink LED not ready");
 		return 0;

@@ -1,0 +1,6 @@
+board:
+  name: custom_stm32h750b
+  full_name: STM32H750B develop plank buy of TaOBao 
+  vendor: st
+  socs:
+    - name: stm32h750xx
